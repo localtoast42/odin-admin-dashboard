@@ -29,6 +29,8 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: rgb(220, 226, 233);
+    padding: 24px;
+    gap: 24px;
 }
 
 .projects-container {
@@ -40,12 +42,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 24px;
 }
 
 .card {
     background-color: white;
     border-radius: 12px;
     box-shadow: 5px 5px 5px lightgray;
+    padding: 24px;
 }
 
 .announcements-container {
