@@ -35,6 +35,18 @@ body {
     grid-row: 1 / 3;
 }
 
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
 .announcements-container {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -45,15 +57,7 @@ body {
     grid-row: 2 / 3;
 }
 
-.card-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
 .trending-card {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: white;
-    border-radius: 12px;
 }
