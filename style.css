@@ -7,8 +7,8 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 400px 3fr;
+    grid-template-rows: 200px 4fr;
 }
 
 .sidebar {
