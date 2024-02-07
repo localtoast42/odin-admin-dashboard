@@ -47,8 +47,49 @@ body {
 }
 
 .header {
+    padding: 24px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50px 50px;
+    gap: 24px;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.searchbar {
+    background-color: rgb(220, 226, 233);
+    border: none;
+    border-radius: 30px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 50px 50px 1fr;
+}
+
+.greeting {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+button {
+    background-color: rgb(106, 187, 238);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .main-content {
