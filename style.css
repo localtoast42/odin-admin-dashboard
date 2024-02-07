@@ -17,4 +17,12 @@
 .main-content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trending-card {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
