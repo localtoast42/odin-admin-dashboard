@@ -125,14 +125,17 @@ button {
     gap: 24px;
 }
 
+.card-container > .card {
+    display: flex;
+    flex-direction: column;
+    border-left: 12px solid orange;
+}
+
 .card {
     background-color: white;
     border-radius: 12px;
     box-shadow: 5px 5px 5px lightgray;
     padding: 24px;
-    display: flex;
-    flex-direction: column;
-    border-left: 12px solid orange;
 }
 
 .card > * {
@@ -149,6 +152,25 @@ button {
 .announcements-container {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+}
+
+.announcements-card {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.announcement {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.announcement > h2 {
+    font-size: 18px;
+}
+
+.announcement > p {
+    font-size: 14px;
 }
 
 .trending-container {
