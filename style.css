@@ -154,15 +154,11 @@ button {
     grid-row: 1 / 2;
 }
 
-.announcements-card {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+.announcement-card {
+    padding: 24px 36px;
 }
 
 .announcement {
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .announcement > h2 {
