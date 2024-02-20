@@ -130,6 +130,20 @@ button {
     border-radius: 12px;
     box-shadow: 5px 5px 5px lightgray;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border-left: 12px solid orange;
+}
+
+.card > * {
+    margin: 0 0 6px;
+}
+
+.card-icons {
+    align-self: flex-end;
+    margin: auto 0 0 0;
+    display: flex;
+    gap: 25px;
 }
 
 .announcements-container {
