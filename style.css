@@ -83,12 +83,14 @@ body {
 .search {
     display: grid;
     grid-template-columns: 50px 1fr;
+    align-items: center;
 }
 
 .searchbar {
     background-color: rgb(220, 226, 233);
     border: none;
     border-radius: 30px;
+    min-height: 40px;
 }
 
 .profile {
