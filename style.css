@@ -8,7 +8,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 400px 3fr;
-    grid-template-rows: 200px 4fr;
+    grid-template-rows: 220px 4fr;
 }
 
 .sidebar {
@@ -71,13 +71,13 @@ body {
 }
 
 .header {
-    padding: 24px;
+    padding: 24px 48px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 50px 50px;
-    gap: 24px;
+    grid-template-rows: 50px 1fr;
+    gap: 20px;
 }
 
 .search {
@@ -109,7 +109,18 @@ body {
 
 .greeting {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 100px 1fr;
+    gap: 24px;
+    align-items: center;
+}
+
+.greeting p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.greeting h1 {
+    margin: 0;
 }
 
 .actions {
