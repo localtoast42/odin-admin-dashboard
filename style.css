@@ -196,17 +196,24 @@ body {
 
 .announcement-card {
     padding: 24px 36px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+    gap: 24px;
 }
 
 .announcement {
+    overflow: hidden;
 }
 
 .announcement > h2 {
     font-size: 18px;
+    margin: 0;
 }
 
 .announcement > p {
     font-size: 14px;
+    margin: 0;
 }
 
 .trending-container {
