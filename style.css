@@ -224,4 +224,10 @@ body {
 .trending-card {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.trending-card h3, p {
+    margin: 0;
 }
