@@ -39,7 +39,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: repeat(6, 50px);
-    place-items: center;
+    align-items: center;
+}
+
+.nav > img {
+    justify-self: center;
 }
 
 .nav h2 {
@@ -55,7 +59,11 @@ body {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 50px;
     grid-auto-rows: 50px;
-    place-items: center;
+    align-items: center;
+}
+
+.support > img {
+    justify-self: center;
 }
 
 .support h2 {
