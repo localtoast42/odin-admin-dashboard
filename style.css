@@ -23,6 +23,11 @@ body {
 .logo {
     display: grid;
     grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.logo > img {
+    justify-self: center;
 }
 
 .logo h1 {
