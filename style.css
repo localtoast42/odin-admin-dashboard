@@ -193,9 +193,12 @@ body {
 .announcements-container {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .announcement-card {
+    flex: 1;
     padding: 24px 36px;
     display: grid;
     grid-template-columns: 1fr;
@@ -220,9 +223,12 @@ body {
 .trending-container {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
 }
 
 .trending-card {
+    flex: 1;
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 16px;
